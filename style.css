@@ -6,6 +6,10 @@
     padding: 0;
     font-family:'Roboto',sans-serif; ;
 }
+body{
+    background-color: black;
+    color: white;
+}
 
 
 .left{
@@ -37,4 +41,18 @@
 }
 .heading img{
     width: 20px;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+
+}
+.footer{
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    gap: 13px;
+}
+.footer a{
+    color: grey;
 }
