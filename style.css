@@ -56,3 +56,17 @@ body{
 .footer a{
     color: grey;
 }
+.right{
+    margin: 16px 0;
+}
+.nav img{
+ 
+    width: 10px;
+}
+.header> *{
+    padding: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
