@@ -69,4 +69,9 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
+    background-color: rgb(34 34 34);
+}
+.header > * {
+    padding: 20px;
+  
 }
