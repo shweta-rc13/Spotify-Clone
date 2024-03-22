@@ -52,6 +52,7 @@ body{
     font-size: 10px;
     color: grey;
     gap: 13px;
+    padding: 10px 0 ;
 }
 .footer a{
     color: grey;
@@ -104,6 +105,6 @@ body{
     right: -50px;
     color: rgb(51, 203, 1);
     opacity: 0;
-    transition: all 1s ease-out;
+    transition: all 10s ease-out;
     
 }
