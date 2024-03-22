@@ -89,6 +89,7 @@ body{
     padding: 10px;
     border-radius:5px ;
     background-color: #252525;
+    position: relative;
 }
 .card > *{
     padding-top: 10px;
@@ -96,6 +97,13 @@ body{
 .card img{
     width: 150px;
     object-fit: contain;
- 
-
+}
+.play{
+    position: absolute;
+    top: 140px;
+    right: -50px;
+    color: rgb(51, 203, 1);
+    opacity: 0;
+    transition: all 1s ease-out;
+    
 }
