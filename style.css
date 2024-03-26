@@ -84,7 +84,7 @@ body{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-  
+  max-height: 50vh;
 }
  .card{
     width: 150px;
@@ -110,4 +110,36 @@ body{
     opacity: 0;
     transition: all 10s ease-out;
     
+}
+.buttons > * {
+    margin: 0 12px;
+}
+
+.signup{
+    background-color: rgb(34,34,34);
+    color: grey;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.signup:hover{
+    font-size: 17px;
+    color: white;
+
+}
+.login{
+    background-color: white;
+    border-radius: 21px;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+}
+.login:hover{
+    font-weight: bold;
+    font-size: 17px;
+
 }
