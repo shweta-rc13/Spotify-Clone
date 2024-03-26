@@ -84,10 +84,12 @@ body{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+  
 }
  .card{
     width: 150px;
     padding: 10px;
+
     border-radius:5px ;
     background-color: #252525;
     position: relative;
@@ -96,6 +98,7 @@ body{
     padding-top: 10px;
 }
 .card img{
+    height: 150px;
     width: 150px;
     object-fit: contain;
 }
