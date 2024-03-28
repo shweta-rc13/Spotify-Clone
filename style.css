@@ -59,6 +59,7 @@ body{
 }
 .right{
     margin: 16px 0;
+    position: relative;
 }
 .nav img{
  
@@ -142,4 +143,12 @@ body{
     font-weight: bold;
     font-size: 17px;
 
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(96, 214, 175);
+    width: 100%;
+    padding: 12px;
 }
