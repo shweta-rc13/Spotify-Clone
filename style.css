@@ -151,4 +151,11 @@ body{
     background-color: rgb(96, 214, 175);
     width: 100%;
     padding: 12px;
+ 
+}
+.songbutton{
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    gap:12px ;
 }
